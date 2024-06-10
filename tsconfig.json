@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+        "*": [
+            "node_modules/*",
+            "src/types/*"
+        ]
+    }
+  },
+  "include": [
+      "src/**/*"
+, "src/networkExpress/expressServer.ts"  ]
+}
